@@ -33,8 +33,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](http://muakone.github.io/url-shortner)
+- Solution URL: [Github repo](https://github.com/muakone/url-shortner.git)
+- Live Site URL: [Git pages](http://muakone.github.io/url-shortner)
 
 
 ## My process
