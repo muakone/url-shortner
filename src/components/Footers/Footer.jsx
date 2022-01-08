@@ -63,16 +63,16 @@ const Footer = () => {
                             </Col>
                             <Col md={3} className='footer-space1'>
                                 <div className='d-flex flex-lg-row flex-md-column icon icon-hover'>
-                                    <a href="muak">
+                                    <a href="https://www.facebook.com/muhiz.akanni">
                                         <img src={iconFacebook} alt="icon-facebook" className='px-2 pb-lg-0 pb-md-2' />
                                     </a>
-                                    <a href="a">
+                                    <a href="https://twitter.com/muhiz_akanni?s=09">
                                     <img src={iconTwitter} alt="icon-twitter" className='px-2 pb-lg-0 pb-md-2' />
                                     </a>
-                                    <a href="muak">
+                                    <a href="https://www.linkedin.com/in/muhiz-akanni-46595b21a">
                                     <img src={iconPinterest} alt="icon-pinterest" className='px-2 pb-lg-0 pb-md-2' />
                                     </a>
-                                    <a href="muak">
+                                    <a href="https://www.instagram.com/muakone3">
                                         <img src={iconInstagram} alt="icon-instagram" className='px-2 pb-lg-0 pb-md-2' />
                                     </a>
                                 </div>
