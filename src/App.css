@@ -13,7 +13,7 @@
   border-radius: 15px;
 } 
 ::-webkit-scrollbar-thumb {
-  background: hsl(180, 66%, 49%); 
+  background: cyan; 
   border-radius: 10px;
 }
 ::-webkit-scrollbar-thumb:hover {
@@ -156,6 +156,7 @@ button.copied {
     text-align: center;
     border-radius: 7px;
     margin-top: 30px;
+    margin-bottom: 1em;
   }
   .nav-color {
     color: white !important;
@@ -224,6 +225,14 @@ button.copied {
   }
   .footer-space1 {
     padding-bottom: 2em;
+  }
+} 
+@media (max-width: 425px) {
+  .toggle {
+    margin-right: 2em;
+  }
+  .bg-nav {
+    margin-right: 2em;
   }
 }
 @media(max-width: 330px) {

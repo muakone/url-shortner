@@ -60,18 +60,16 @@ const Forms = () => {
             <Form className='d-flex flex-column form-box pt-2 ps-md-0 ps-3' onSubmit={(e) => handleSubmit(e)}>
                 <Form.Group className="mb-3 ms-md-5 d-flex flex-md-row flex-column form-text" controlId="formBasicText">
                     <Form.Control type="text" className='me-md-4 Form-text ps-md-5 p-md-0 py-3 mb-md-0 mb-3 rounded-3' value={link} onChange={(e) => setLink(e.target.value)} placeholder="Shorten a link here..." />
-                    {!isLoading && (
-                        <Button className='pe-5 text-white border-info px-5 text-nowrap py-3 btn-color fw-bolder' onClick={(e) => handleSubmit(e)}>Shorten it!</Button>
-                    )}
-                    {isLoading && (
-                        <Button className='btn-color pe-5 px-5 text-nowrap py-3' onClick={(e) => handleSubmit(e)}>
-                            <ClipLoader
-                            css={override} size={35} color='black'
-						/>
-                        </Button>   
-                    )}
+                    {!isLoading ? 
+                        <Button className='pe-5 text-white border-info px-5 text-nowrap py-3 btn-color fw-bolder' onClick={(e) => handleSubmit(e)}>Shorten it!</Button> : 
+                        <Button className='btn-color pe-5 px-5 text-nowrap py-3'>
+                        <ClipLoader
+                        css={override} size={35} color='black'
+                    />
+                    </Button>
+                    }
                 </Form.Group>
-                <p className='text-danger justify-content-start text-start ms-5 fst-italic'>{error}</p> 
+                <p className='text-danger justify-content-start text-md-start ms-md-5 fst-italic text-center'>{error}</p> 
             </Form>
         </Container>
         {

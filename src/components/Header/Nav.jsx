@@ -7,7 +7,7 @@ const Navs = () => {
         <Navbar expand="lg" className='ps-lg-5 mt-4'>
             <Container className='nav-container'>
              <img src={shortly} alt="shortly-logo" className='shorty-logo navbar-brand' />
-                <Navbar.Toggle aria-controls="basic-navbar-nav" />
+                <Navbar.Toggle aria-controls="basic-navbar-nav" className='toggle' />
                 <Navbar.Collapse id="basic-navbar-nav" className='bg-nav'>
                 <Nav className="me-auto ms-lg-4 py-4 px-5">
                     <Nav.Item as="li">
