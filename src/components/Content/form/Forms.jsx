@@ -6,7 +6,8 @@ import ClipLoader from 'react-spinners/ClipLoader';
 import { css } from "@emotion/react";
 
 
-const HTTP_URL_VALIDATOR_REDEX = /(http(s)?:\/\/.)?(www\.)?[-a-zA-Z0-9@:%._+~#=]{2,256}\.[a-z]{2,6}\b([-a-zA-Z0-9@:%_+.~#?&//=]*)/g;
+// eslint-disable-next-line no-useless-escape
+const HTTP_URL_VALIDATOR_REGEX = (/^(ht|f)tp(s?)\:\/\/[0-9a-zA-Z]([-.\w]*[0-9a-zA-Z])*(:(0-9)*)*(\/?)([a-zA-Z0-9\-\.\?\,\'\/\\\+&amp;%\$#_]*)?$/)
 
 const Forms = () => {
     const [link, setLink] = useState('')
@@ -15,7 +16,7 @@ const Forms = () => {
     const [Response, setResponse] = useState([])
 
     const validateURL = (string) => {
-        return string.match(HTTP_URL_VALIDATOR_REDEX)
+        return string.match(HTTP_URL_VALIDATOR_REGEX)
     }
 
     const handleSubmit = (e) => {
