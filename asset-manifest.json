@@ -1,9 +1,9 @@
 {
   "files": {
-    "main.css": "/url-shortner/static/css/main.06a2bf61.css",
-    "main.js": "/url-shortner/static/js/main.049f40ae.js",
+    "main.css": "/url-shortner/static/css/main.13878a57.css",
+    "main.js": "/url-shortner/static/js/main.a25434c1.js",
     "static/js/787.c8e1eaf9.chunk.js": "/url-shortner/static/js/787.c8e1eaf9.chunk.js",
-    "static/media/illustration-working.svg": "/url-shortner/static/media/illustration-working.c9b5ef5452363d8be3df709375d50bd0.svg",
+    "static/media/illustration-working.svg": "/url-shortner/static/media/illustration-working.c9b5ef5452363d8be3df.svg",
     "static/media/logo.svg": "/url-shortner/static/media/logo.834643034343520f3b4d7e43111ed4d8.svg",
     "static/media/icon-fully-customizable.svg": "/url-shortner/static/media/icon-fully-customizable.a1532a74fa781f6fde327313bd5ffce3.svg",
     "static/media/icon-brand-recognition.svg": "/url-shortner/static/media/icon-brand-recognition.c349d3b69f7442e5ac3552e4138e72e7.svg",
@@ -16,12 +16,12 @@
     "static/media/bg-shorten-desktop.svg": "/url-shortner/static/media/bg-shorten-desktop.0d9742f433f4b0d8752b.svg",
     "static/media/icon-twitter.svg": "/url-shortner/static/media/icon-twitter.1d5c6d5e6ab1717a500af2df0a87959a.svg",
     "static/media/icon-facebook.svg": "/url-shortner/static/media/icon-facebook.229c75a01827343aef31ae916e2ec18a.svg",
-    "main.06a2bf61.css.map": "/url-shortner/static/css/main.06a2bf61.css.map",
-    "main.049f40ae.js.map": "/url-shortner/static/js/main.049f40ae.js.map",
+    "main.13878a57.css.map": "/url-shortner/static/css/main.13878a57.css.map",
+    "main.a25434c1.js.map": "/url-shortner/static/js/main.a25434c1.js.map",
     "787.c8e1eaf9.chunk.js.map": "/url-shortner/static/js/787.c8e1eaf9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.06a2bf61.css",
-    "static/js/main.049f40ae.js"
+    "static/css/main.13878a57.css",
+    "static/js/main.a25434c1.js"
   ]
 }
