@@ -16,8 +16,8 @@ const Footer = () => {
                     </Col>
                     <Col md={8}>
                         <Row>
-                            <Col md={3} className='footer-space1'>
-                                <h5 className='ms-3'>Features</h5>
+                            <Col lg={3} md={3} className='footer-space1'>
+                                <h5 className='ms-md-3'>Features</h5>
                                 <ListGroup variant="flush">
                                     <ListGroup.Item className='border-bottom-0 footer-bg-color footer-text-hover'>
                                         <a href="muak.com" className='text-decoration-none footer-text text-nowrap'>Link Shortening</a>
@@ -30,8 +30,8 @@ const Footer = () => {
                                     </ListGroup.Item>
                                 </ListGroup>
                             </Col>
-                            <Col md={3} className='footer-space1'>
-                                <h5 className='ms-3'>Resources</h5>
+                            <Col lg={3} md={3} className='footer-space1'>
+                                <h5 className='ms-md-3'>Resources</h5>
                                 <ListGroup variant="flush">
                                     <ListGroup.Item className='border-bottom-0 footer-bg-color footer-text-hover'>
                                         <a href="muak.com" className='text-decoration-none footer-text'>Blog</a>
@@ -44,8 +44,8 @@ const Footer = () => {
                                     </ListGroup.Item>
                                 </ListGroup>
                             </Col>
-                            <Col md={3} className='footer-space1'>
-                                <h5 className='ms-3'>Company</h5>
+                            <Col lg={3} md={3} className='footer-space1'>
+                                <h5 className='ms-md-3'>Company</h5>
                                 <ListGroup variant="flush">
                                     <ListGroup.Item className='border-bottom-0 footer-bg-color footer-text-hover'>
                                         <a href="muak.com" className='text-decoration-none footer-text'> About</a>
@@ -61,8 +61,8 @@ const Footer = () => {
                                     </ListGroup.Item>
                                 </ListGroup>    
                             </Col>
-                            <Col md={3} className='footer-space1'>
-                                <div className='d-flex flex-lg-row flex-md-column icon icon-hover'>
+                            <Col lg={3} md={4} className='footer-space1'>
+                                <div className='d-flex icon icon-hover'>
                                     <a href="https://www.facebook.com/muhiz.akanni">
                                         <img src={iconFacebook} alt="icon-facebook" className='px-2 pb-lg-0 pb-md-2' />
                                     </a>

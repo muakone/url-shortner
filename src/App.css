@@ -5,18 +5,13 @@
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
   font-size: 18px;
+  max-width: 1440px;
 }
 ::-webkit-scrollbar {
-  width: 9px;
+  width: 6px;
+  background-color: black;
 }
-::-webkit-scrollbar-track {
-  border-radius: 15px;
-} 
 ::-webkit-scrollbar-thumb {
-  background: cyan; 
-  border-radius: 10px;
-}
-::-webkit-scrollbar-thumb:hover {
   background: hsl(180, 66%, 49%); 
 }
 button.btn-color {
@@ -38,14 +33,13 @@ button.copied {
 .nav-color {
   color: hsl(0, 0%, 75%);
 }
-.illustration-container {
-  overflow: hidden;
-}
-.illustration-img {
-  width: 42em;
-}
-.spacing {
-  column-gap: 7em;
+.about-container {
+  max-width: 100vw;
+  background-image: url(./images/illustration-working.svg);
+  background-repeat: no-repeat;
+  background-size: 60% 100%;
+  background-position-x: 110%;
+  padding-bottom: 6em;
 }
 .about-text {
   font-size: 4.1em;
@@ -133,15 +127,7 @@ button.copied {
   filter: invert(47%) sepia(51%) saturate(2878%) hue-rotate(143deg) brightness(100%) contrast(97%);
   cursor: pointer;
 }
-@media(max-width: 1366px) {
-  .spacing {
-    column-gap: 11em;
-  }
-}
 @media (max-width: 1024px) {
-  .spacing {
-    column-gap: 4.5%;
-  }
   .about-text {
     font-size: 3em;
   }
@@ -177,14 +163,11 @@ button.copied {
   }
 }
 @media(max-width: 768px){
+  .about-container {
+    background-image: none;
+  }
   .about-text {
     font-size: 3.5em;
-  }
-  .illustration-container {
-    left: 0;
-  }
-  .illustration-img {
-    width: 30em;
   }
   .boost {
     background-image: url(./images/bg-boost-mobile.svg);;
@@ -194,18 +177,9 @@ button.copied {
   }
 }
 @media(max-width: 767px){
-  .about-text-container {
-    text-align: center;
-  }
-  .about-para {
-    margin: auto;
-  }
   .about-text {
     font-size: 2.5em;
   } 
-  .illustration-img {
-    width: 100%;
-  }
   .shortcode-container {
     border-bottom: solid 1px rgb(230, 222, 222);
     padding-bottom: 5px;
@@ -233,6 +207,12 @@ button.copied {
   }
   .bg-nav {
     margin-right: 2em;
+  }
+  .about-text-wrapper {
+    text-align: center;
+  }
+  .about-text {
+    font-size: 2.2em;
   }
 }
 @media(max-width: 330px) {
