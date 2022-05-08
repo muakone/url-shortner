@@ -20,7 +20,7 @@ const MobileNav = () => {
             <div>
             {
             showMenu ?
-            <div className='side-menu-bg'>
+            <div className='side-menu-bg' onClick={handleShowMenu}>
                 <div className='side-menu'>
                     <SideBarContent handleShowMenu={handleShowMenu} />
                 </div>

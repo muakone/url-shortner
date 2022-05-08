@@ -23,10 +23,6 @@
  padding: 7px 15px;
  text-align: center;
 }
-.signup-link {
-  text-align: center;
-  text-decoration: none;
-}
 button.btn-color {
  background-color: hsl(180, 66%, 49%) !important;
  border-color: hsl(180, 66%, 49%) !important;
@@ -36,6 +32,7 @@ button.copied {
   background-color: hsl(257, 27%, 26%) !important;
   border-color: hsl(257, 27%, 26%) !important;
 }
+/*Nav*/
 .shorty-logo {
   width: 120px;
   height: 30px;
@@ -59,17 +56,15 @@ button.copied {
   color: hsl(180, 66%, 49%) !important;
   border-radius: 10px;
 }
-.nav-links {
+.nav-links, .nav-links:hover  {
   color: gray;
   text-decoration: none;
-}
-.nav-links:hover {
-  color: gray;
 }
 .sign-up {
   margin-left: 17px;
   margin-top: -10px;
 }
+/*homeAbout*/
 .about-container {
   max-width: 100vw;
   background-image: url(./images/illustration-working.svg);
@@ -94,6 +89,7 @@ button.copied {
 .content {
   background-color: hsl(0, 0%, 88%);
 }
+/*Homeform*/
 .form-section {
   position: relative;
   bottom: 5em;
@@ -117,8 +113,9 @@ button.copied {
   overflow: hidden;
 }
 .link-content {
-  height: 22em;
+  height: 20em;
 }
+/*AboutStat*/
 .stat-card {
   max-width: 20em;
 }
@@ -144,6 +141,7 @@ button.copied {
 .last-stat-card {
   margin-top: 5em;
 }
+/*Boost*/
 .boost {
   background-color: hsl(257, 27%, 26%);
   background-image: url(./images/bg-boost-desktop.svg);
@@ -174,6 +172,7 @@ button.copied {
 .not-found {
   height: 50vh;
 }
+/*Footer*/
 .logo-white {
   filter: brightness(0) invert(1);
 }
@@ -197,20 +196,6 @@ button.copied {
   }
 }
 @media (max-width: 990px) {
-  .nav-container {
-    margin-top: 20px;
-    margin-left: 0;
-  }
-  .bg-nav {
-    background-color: hsl(257, 27%, 26%);
-    text-align: center;
-    border-radius: 7px;
-    margin-top: 30px;
-    margin-bottom: 1em;
-  }
-  .nav-color {
-    color: white !important;
-  }
   .stat-div-container {
     left: 39%;
   }
@@ -219,7 +204,6 @@ button.copied {
     height: 70px;
     justify-content: center;
     align-items: center;
-    margin: 0 auto;
     top: 0 !important;
   }
   .last-stat-card {
@@ -345,12 +329,6 @@ button.copied {
 }
 } 
 @media (max-width: 425px) {
-  .toggle {
-    margin-right: 2em;
-  }
-  .bg-nav {
-    margin-right: 2em;
-  }
   .about-text-wrapper {
     text-align: center;
   }

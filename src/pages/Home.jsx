@@ -13,6 +13,7 @@ const Home = () => {
         <div className='content'>
         <Forms/>
         <Container>
+          <h2 className='text-center fs-1 mb-5 text-decoration-underline'>Our Resources</h2>
           <Row xs={1} sm={2} md={3} lg={4}>
             {HomeContent.map((card, index) => (
               <div key={index}>

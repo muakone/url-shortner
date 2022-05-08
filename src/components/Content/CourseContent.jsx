@@ -9,13 +9,13 @@ const CourseContent = ({card, index}) => {
         <Card.Img variant="top" src={BestPractice} />
         <Card.Body>
             <Card.Title>
-                <h6>{card.study}</h6>
+                <h6 className='fs-6 text-secondary'>{card.study}</h6>
             </Card.Title>
             <Card.Text>
-                <h3>{card.title}</h3>
+                <h4 className='fs-5'>{card.title}</h4>
             </Card.Text>
-            <Link to={`/link-info/${card.study}`}>
-                <Button className='bg-secondary py-2 px-3'>View More</Button>
+            <Link to={`/link-info/${card.study}`} className="text-decoration-none">
+                <Button className='bg-secondary border-0 py-2 px-3 mt-2'>View More</Button>
             </Link>
 
         </Card.Body>
