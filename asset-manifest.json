@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/url-shortner/static/css/main.14d2298e.css",
-    "main.js": "/url-shortner/static/js/main.999afc70.js",
+    "main.css": "/url-shortner/static/css/main.5321f602.css",
+    "main.js": "/url-shortner/static/js/main.ae19e069.js",
     "static/js/787.c8e1eaf9.chunk.js": "/url-shortner/static/js/787.c8e1eaf9.chunk.js",
     "static/media/contact-us.jpg": "/url-shortner/static/media/contact-us.13b798d6ec4d62e3e4d2.jpg",
     "static/media/best-practice.png": "/url-shortner/static/media/best-practice.cf572ffc5b898fa69224.png",
@@ -23,12 +23,12 @@
     "static/media/icon-facebook.svg": "/url-shortner/static/media/icon-facebook.229c75a01827343aef31ae916e2ec18a.svg",
     "static/media/icon-close-menu.svg": "/url-shortner/static/media/icon-close-menu.3f33fd68b142340b7eb8c6887f92ee0c.svg",
     "static/media/icon-menu.svg": "/url-shortner/static/media/icon-menu.863803c904916606b7a1998b3c5736aa.svg",
-    "main.14d2298e.css.map": "/url-shortner/static/css/main.14d2298e.css.map",
-    "main.999afc70.js.map": "/url-shortner/static/js/main.999afc70.js.map",
+    "main.5321f602.css.map": "/url-shortner/static/css/main.5321f602.css.map",
+    "main.ae19e069.js.map": "/url-shortner/static/js/main.ae19e069.js.map",
     "787.c8e1eaf9.chunk.js.map": "/url-shortner/static/js/787.c8e1eaf9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.14d2298e.css",
-    "static/js/main.999afc70.js"
+    "static/css/main.5321f602.css",
+    "static/js/main.ae19e069.js"
   ]
 }
