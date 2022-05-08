@@ -1,5 +1,6 @@
 import React from 'react'
 import {Container, Row, Col, ListGroup} from 'react-bootstrap'
+import { Link } from 'react-router-dom'
 import shortly from '../../images/logo.svg'
 import iconFacebook from '../../images/icon-facebook.svg'
 import iconInstagram from '../../images/icon-instagram.svg'
@@ -48,7 +49,7 @@ const Footer = () => {
                                 <h5 className='ms-md-3'>Company</h5>
                                 <ListGroup variant="flush">
                                     <ListGroup.Item className='border-bottom-0 footer-bg-color footer-text-hover'>
-                                        <a href="muak.com" className='text-decoration-none footer-text'> About</a>
+                                        <Link to={'/about'} className='text-decoration-none footer-text'>About</Link>
                                     </ListGroup.Item>
                                     <ListGroup.Item className='border-bottom-0 footer-bg-color footer-text-hover'>
                                         <a href="muak" className='text-decoration-none footer-text'>Our Team</a>
@@ -57,7 +58,7 @@ const Footer = () => {
                                         <a href="muak" className='text-decoration-none footer-text'>Careers</a>
                                     </ListGroup.Item>
                                     <ListGroup.Item className='border-bottom-0  footer-bg-color footer-text-hover'>
-                                        <a href="muak" className='text-decoration-none footer-text'>Contact</a>
+                                        <Link to={'/contact'} className='text-decoration-none footer-text'>Contact</Link>
                                     </ListGroup.Item>
                                 </ListGroup>    
                             </Col>

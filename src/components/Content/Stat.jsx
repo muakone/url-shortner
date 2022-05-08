@@ -1,8 +1,8 @@
 import React from 'react'
 import { Card } from 'react-bootstrap'
-import  BrandRecognition from '../../../images/icon-brand-recognition.svg'
-import DetailRecords from '../../../images/icon-detailed-records.svg'
-import Customizable from '../../../images/icon-fully-customizable.svg'
+import  BrandRecognition from '../../images/icon-brand-recognition.svg'
+import DetailRecords from '../../images/icon-detailed-records.svg'
+import Customizable from '../../images/icon-fully-customizable.svg'
 
 
 const Stat = () => {

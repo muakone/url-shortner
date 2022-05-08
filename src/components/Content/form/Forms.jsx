@@ -71,6 +71,10 @@ const Forms = () => {
                     }
                 </Form.Group>
                 <p className='text-danger justify-content-start text-md-start ms-md-5 fst-italic text-center'>{error}</p> 
+                {
+                isLoading && 
+                <p className='text-white justify-content-start text-md-start fst-italic text-center'>Please wait while the link is being shortened...</p>
+                }
             </Form>
         </Container>
         {
