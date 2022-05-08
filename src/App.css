@@ -133,6 +133,7 @@ button.copied {
 .stat-line {
   width: 1.7em;
   height: 8px;
+  margin: 0 auto;
   background-color: hsl(180, 66%, 49%);
   border-color: hsl(180, 66%, 49%);
   position: relative !important;
