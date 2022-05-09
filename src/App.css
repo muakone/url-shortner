@@ -330,6 +330,9 @@ button.copied {
 }
 } 
 @media (max-width: 425px) {
+  .link-content {
+    height: 22em;
+  }
   .about-text-wrapper {
     text-align: center;
   }
